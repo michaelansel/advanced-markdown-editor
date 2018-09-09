@@ -9,3 +9,8 @@ body, html {
   border-bottom: 0;
   background-color: transparent;
 }
+
+.CodeMirror span.cm-formatting-list {
+  line-height: 1.5em;
+  vertical-align: bottom;
+}
