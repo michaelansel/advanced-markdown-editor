@@ -197,3 +197,8 @@ body, html {
     display: inline-block;
 }
 }
+
+.CodeMirror span.cm-formatting-list {
+  line-height: 1.5em;
+  vertical-align: bottom;
+}
