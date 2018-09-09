@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   window.simplemde = new SimpleMDE({
      element: document.getElementById("editor"),
+     indentWithTabs: false,
      spellChecker: false,
      status: false,
      toolbar:[
@@ -58,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
            "|", "clean-block",
            "|", "link", "image",
            "|", "table",
-           "|", "preview", "side-by-side", "fullscreen"
+           "|", "preview", "side-by-side"
            ],
    });
 
