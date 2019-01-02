@@ -149,16 +149,7 @@ body, html {
     opacity: 0.2;
   }
 
-  .cm-variable-2 {
-    color: var(--sn-stylekit-info-color) !important;
-
-    &.CodeMirror-selectedtext {
-      color: var(--sn-stylekit-info-contrast-color) !important;
-      background: transparent;
-    }
-  }
-
-  .cm-link, .cm-string, .cm-keyword {
+  .cm-link, .cm-string {
     color: var(--sn-stylekit-info-color) !important;
 
     &.CodeMirror-selectedtext {
